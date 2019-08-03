@@ -13,7 +13,7 @@ header{
 .clearfix::after{
     content: "";
     display: block;
-    clear: both
+    clear: both;
 }
 
 nav{
@@ -70,10 +70,115 @@ nav{
   
 }
 
+.main-portfolio{
+    background-color: #ECEFF1;
+}
+
 .main-p{
     padding-top: 20px;
    
 }
+
+.mozi-container{
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 90px;
+    
+}
+
+.portfolio-container{
+    margin-bottom: 30px;
+}
+
+.portfolio{
+    font-size: 33px;
+    color: #0000000;
+    position: relative;
+}
+
+.sentence-container{
+    margin-bottom: 30px;
+}
+
+.portfolio::after{
+    content: "";
+    display: block;
+    width: 70px;
+    height: 3px;
+    background-color: red;
+    position: absolute;
+    left: 47%;
+}
+
+.photo-container{
+    width: 920px;
+    margin: 0  auto;
+    padding-bottom: 90px;
+    
+}
+
+.photo1{
+    background-image: url(5-10/sketch.jpg);
+    background-size: cover;
+    background-position: center;
+    width:300px;
+    height: 250px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.photo2{
+    background-image: url(5-10/websuku.png);
+    background-size: cover;
+    background-position: center;
+    width:300px;
+    height: 250px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.photo3{
+    background-image: url(5-10/write.jpg);
+    background-size: cover;
+    background-position: center;
+    width:300px;
+    height: 250px;
+    float: left;
+    margin-bottom: 10px;
+}
+
+.photo4{
+    background-image: url(5-10/webcamp.png);
+    background-size: cover;
+    background-position: center;
+    width:300px;
+    height: 250px;
+    float: left;
+    margin-right: 10px;
+}
+
+.photo5{
+    background-image: url(5-10/talk.jpg);
+    background-size: cover;
+    background-position: center;
+    width:300px;
+    height: 250px;
+    float: left;
+    margin-right: 10px;
+}
+
+
+.photo6{
+    background-image: url(5-10/webcamp-mother.png);
+    background-size: cover;
+    background-position: center;
+    width:300px;
+    height: 250px;
+    float: left;
+}
+
 
 
 
